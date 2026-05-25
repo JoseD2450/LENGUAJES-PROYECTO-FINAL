@@ -122,3 +122,7 @@ After execution, the analyzer reports:
 - **Redundancy** — two or more rules have *identical* conditions and the same action:
   `Redundant rules: r1, r2`
 - **Potentially inactive rule** — a rule whose condition cannot be made true (variables are immutable, and no required fact is initially active or produced by any rule) and whose action is not consumed by any other rule. Rules already flagged as conflict/redundant are not reported as inactive.
+
+- #Auxiliary video
+
+- https://youtu.be/0EdwMnnCjoo
